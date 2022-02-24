@@ -1,0 +1,342 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+}
+span{
+    display: block;
+    text-align: center;
+    margin: 5px;
+}
+.p{
+    margin: 10px;
+}
+.pad{
+    padding: 10px;
+}
+.cero__margen{
+    margin: 0;
+}
+.h3{
+    margin-left: 5px;
+}
+.txt-de-n{
+    text-decoration: none;
+}
+.centrado__elements{
+    text-align: center;
+}
+.inv{
+    visibility: hidden;
+}
+.justify{
+    text-align: justify;
+}
+.text__tam{
+    font-size: 10px;
+}
+
+/* CLASES VISTA LOGIN Y REGISTRO */
+
+.loginreg__fondo{
+    background-color:#ffffff;
+}
+.login__margin{
+    margin-top: 10%;
+}
+.loginreg__titulo{
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align:center;
+}
+.login__form{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+.login__form__input{
+    padding: 20px;
+    margin: 15px;
+    width: 70%;
+    border:none;
+    border-radius: 3px;
+    border: 1px solid #eee;
+}
+.loginreg__form__submit{
+    background-color: rgb(23, 255, 112);
+    color:#ffffff;
+    width: 300px;
+    padding: 10px;
+    border: solid #c0c0c0 2px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.loginreg__form__submit:hover{
+    background-color: rgb(89, 255, 153);
+}
+.register__form{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+.register__form__input{
+    padding: 20px;
+    margin:15px;
+    width: 70%;
+    border:none;
+    border-radius: 3px;
+    border: 1px solid #eee;
+}
+.register__margin{
+    margin-top: 5%;
+}
+
+/* CLASES VISTA PRINCIPAL */
+p{
+    margin:0;
+}
+
+.principal__margin{
+    margin:5px;
+}
+.principal__body{
+    background-color:#67aeff;
+}
+.principal__titulo{
+    background-color:#FFFFFF;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+.principal__aside{
+    text-align: center;
+    overflow-y: scroll;
+    background-color:#FFFFFF;
+    width: 100%;
+    height: 20em;
+}
+.principal__section{
+    margin: 0;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.principal__header{
+    background-color:#e7e0e0;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-color: #000000;
+    border-radius: 10px;
+}
+.principal__article__p{
+    text-align: justify;
+}
+.principal__section__boton{
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin: 5px auto;
+    display: block;
+    text-align: center;
+    border: solid #c0c0c0 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:rgb(23, 255, 112);
+    transition: color 0.3s ease;
+    padding: 10px;
+    width: 20%;
+}
+.principal__link{
+    color: #0400ff;
+    text-decoration: none;
+}
+.principal__inline_elements{
+    display: inline;
+}
+.principal__section__boton:hover{
+    color: #000000;
+    background-color:rgb(23, 255, 120);
+}
+/* Clases vista modal */
+body .modal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-modal:checked ~ .modal{
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor{
+    width: 400px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
+    transition: all 500ms ease;
+    position: relative;
+    transform: translateY(-30%);
+    border-radius: 10px;
+}
+#btn-modal:checked ~ .modal .contenedor{
+    transform: translateY(0%);
+}
+.contenedor label{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #000000;
+    font-size: 15px;
+    cursor: pointer;
+}
+#btn-modal{
+    display: none;
+}
+.titulo__modal{
+    color: #000000;
+    text-align: center;
+}
+/* CAFE */ 
+.cafe__contenido{
+    width: 60%;
+    margin: 10px auto;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10PX;
+    box-shadow:1px 7px 25px rgba(0,0,0,0.6);
+}
+.cafe__boton{
+    width: 15%;
+    margin: 5px auto;
+    background-color: rgb(93, 30, 0);
+    color:#ffffff;
+    padding: 10px;
+    border: solid #c0c0c0 2px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.p__cafe{
+    margin: 10px;
+    width: 80%;
+    text-align: justify;
+}
+/* CLASES CONTACTO */ 
+.contacto__body{
+    background-color: #67aeff;
+}
+.contacto__form{
+    width: 40%;
+    margin: 10px auto;
+    text-align: center;
+}
+.contacto__form__input{
+    padding: 20px;
+    margin: 15px;
+    width: 55%;
+    border:none;
+    border-radius: 5px;
+    border: 1px solid rgb(199, 199, 199);
+    box-shadow:1px 7px 25px rgb(0,0,0); 
+}
+.contacto__submit{
+    margin-bottom: 10px;
+    background-color: rgb(98, 0, 255);
+    color:#ffffff;
+    width: 40%;
+    padding: 10px;
+    border: solid #c0c0c0 2px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+/* CLASES About us */
+.us__boton{
+    width: 15%;
+    margin: 0 auto;
+    background-color: rgb(94, 255, 0);
+    color:#000000;
+    padding: 10px;
+    border: solid #c0c0c0 2px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.us__p{
+    text-align: justify;
+    margin: 20px;
+}
+.us__tit{
+    margin: 0 10px;
+}
+/* Medias QUERY */
+@media screen and (max-width:425px) {
+    .principal__section__boton{
+        width: 40%;
+    }
+    .principal__aside{
+        margin-top: 5px;
+    }
+    .p{
+        margin: 0;
+    }
+    .justify{
+        text-align: center;
+    }
+    .cafe__boton{
+        width: 30%;
+    }
+    .contacto__submit{
+        width: 80%;
+    }
+    .contacto__form__input{
+        width: 80%;
+    }
+}
+@media screen and (max-width:768px) {
+    .cafe__contenido{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    .p__cafe{
+        margin: 0;
+        width: 100%;
+        text-align: left;
+    }
+    .us__p{
+        margin: 0;
+        text-align: left;
+    }
+    .us__boton{
+        width: 30%;
+    }
+    .contacto__form{
+        width: 100%;
+    }
+    .loginreg__titulo{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .register__form{
+        width: 100%;
+    }
+    .login__form{
+        width: 100%;
+    }
+
+}

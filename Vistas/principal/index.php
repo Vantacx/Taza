@@ -88,7 +88,7 @@
                                 <input type="submit" name="save_task" class="btn btn-success btn-block" value="Publicar">
                             </form>
                             <?php else: ?>
-                                <h2 class='centrado__elements'>Lo siento, debes iniciar sesion para poder publicar</h2>
+                                <h2 class='centrado__elements'>Lo siento, debes iniciar sesión para poder publicar</h2>
                                 <h1 class='centrado__elements'>
                                 <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-emoji-dizzy-fill' viewBox='0 0 16 16'>
                                 <path d='M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM4.146 5.146a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 1 1 .708.708l-.647.646.647.646a.5.5 0 1 1-.708.708L5.5 7.207l-.646.647a.5.5 0 1 1-.708-.708l.647-.646-.647-.646a.5.5 0 0 1 0-.708zm5 0a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708.708l-.647.646.647.646a.5.5 0 0 1-.708.708l-.646-.647-.646.647a.5.5 0 1 1-.708-.708l.647-.646-.647-.646a.5.5 0 0 1 0-.708zM8 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z'/>
@@ -180,7 +180,7 @@
     </div>
     <footer class="bg-light text-center text-lg-start">
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2020 | Harold Rafael Martínez Martínez y David Santiago Duarte Niño
+            © 2022 | Harold Rafael Martínez Martínez y David Santiago Duarte Niño
         </div>
     </footer>   
 </body>

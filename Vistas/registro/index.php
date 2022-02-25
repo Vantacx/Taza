@@ -51,7 +51,7 @@
   <?php endif; ?>
     
   <h1 class="loginreg__titulo">Registro</h1>
-  <span>Tambien puedes: <a href="../login/index.php">Iniciar sesion</a></span>
+  <span>Tambien puedes: <a href="../login/index.php">Iniciar sesión</a></span>
   <form action="index.php" method="POST" class="register__form">
     <input type="text" name="username" placeholder="Nombre de usuario..." required class="register__form__input"><br>
     <input type="email" name="email" placeholder="Correo electrónico..." required class="register__form__input"><br>
